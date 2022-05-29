@@ -1,0 +1,8 @@
+2022/05/22-11:50:56| [INFO] Caching server started
+Caching server serving on http://0.0.0.0:8150
+2022/05/22-11:50:58| [Info] Fetched '/doc/success.jpg' from main server '20.188.122.123:8888'
+2022/05/22-11:50:58| [From 10.0.0.24:38076] "GET /doc/success.jpg HTTP/1.1" 200 -
+2022/05/22-11:50:59| [From 10.0.0.24:38078] "GET /doc/success.jpg HTTP/1.1" 200 -
+2022/05/22-11:51:00| [Error] File not found on main server '20.188.122.123:8888'
+2022/05/22-11:51:00| [From 10.0.0.24:38080] code 404, message 'File not found'
+2022/05/22-11:51:00| [From 10.0.0.24:38080] "GET /noneexist HTTP/1.1" 404 -
